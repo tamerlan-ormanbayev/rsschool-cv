@@ -79,15 +79,15 @@ IDArray.clear();
 
 ## Education
 * BSc Undergraduate, University of Calgary, Calgary, Alberta, Canada
-- Computer Science
+  - Computer Science
 * Harvard CS50 Online course
-- Basic knowledge of Python and programming
+  - Basic knowledge of Python and programming
 * MIPT, Russia
-- ZFTSH graduate with 3.8 GPA
+  - ZFTSH graduate with 3.8 GPA
 * freecodecamp.org
-- Responsive web design; HTML/CSS
+  - Responsive web design; HTML/CSS
 * Codecademy
-- Advanced JavaFX applications
+  - Advanced JavaFX applications
 
 ## Languages
 * English (fluent) // IELTS 8.0 (C2 level)
