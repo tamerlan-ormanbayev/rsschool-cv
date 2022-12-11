@@ -1,7 +1,6 @@
 # Tamerlan Ormanbayev
 ## Contact Info
 * [Github](https://github.com/timopix)
-* Phone: +1(825)735-5916
 * E-mail: teemopix@gmail.com
 * Discord: `Timopix#7590
 
