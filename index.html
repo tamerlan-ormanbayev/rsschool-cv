@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="assets/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body class="page-body">
+        <header>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <main class="container">
+            <div class="left">
+                <figure class="figure-left">
+                    <img src="A226356_large.jpeg" class="image" alt="pic"/>
+                </figure>
+                <section class="contact" id="contact">
+                    <h2 class="section-title">
+                        Contact
+                    </h2>
+                    <ul class="contact-list">
+                        <li class="contact-point">
+                            Email:
+                            <br>
+                            teemopix@gmail.com
+                        </li>
+                        <li class="contact-point">
+                            Discord:
+                            <br>
+                            `Timopix#7590
+                        </li>
+                    </ul>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="section-title">
+                        Education
+                    </h2>
+                    <ul class="education-list">
+                        <li class="education-point">
+                            2021-2025
+                            <br>
+                            BSc Undergraduate, University of Calgary, Calgary,
+                            <br>
+                            Alberta, Canada
+                            <br>
+                            Computer Science
+                        </li>
+                        <li class="education-point">
+                            Harvard CS50 Online Course
+                            <br>
+                            Basic knowledge of Python and programming
+                        </li>
+                        <li class="education-point">
+                            MIPT, Russia
+                            <br>
+                            ZFTSH graduate with 3.8 GPA
+                        </li>
+                        <li class="education-point">
+                            Codecademy
+                            <br>
+                            Advanced JavaFX applications
+                        </li>
+                    </ul>
+                </section>  
+            </div>
+            <div class="right">
+                <section class="title">
+                    <h1 class="name-title">
+                        Hi,
+                        <br>
+                        I'm Tamerlan
+                        <br>
+                        Ormanbayev
+                    </h1>
+                </section>
+                <section class="about" id="about">
+                    <h2 class="about-me">
+                        About me 
+                    </h2>
+                    <p class="about-me-text">
+                        I am currently 19 years of age, originally from Almaty, Kazakhstan. I like to study and learn something new. 
+                        <br>
+                        I am a big fan of planes, things automotive and trains.  
+                        <br>
+                        Seeing the results of my work is the biggest driver of my passion.
+                        <br>
+                        I enjoy configuring things myself. I can build, configure, solve problems with computers.
+                    </p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="skills-me">
+                        Skills
+                    </h2>
+                    <ul class="skill-list">
+                        <li class="skill-point">
+                            Java
+                        </li>
+                        <li class="skill-point">
+                            HTML/CSS
+                        </li>
+                        <li class="skill-point">
+                            UX/UI
+                        </li>
+                        <li class="skill-point">
+                            Python
+                        </li>
+                        <li class="skill-point">
+                            Git 
+                        </li>
+                    </ul>
+                </section>
+                <section class="code" id="code">
+                    <h2 class="code-me">
+                        Code example:
+                    </h2>
+                    <pre>
+                        <code>
+public static void CSVW(String currentFile) throws IOException {
+    ArrayList<Object[]> data = Transaction.TransactionsData;
+    FileWriter writer = new FileWriter("data/" + currentFile);
+                        
+        for (Object[] trnsctn : data) {
+            String str = Arrays.toString(trnsctn);
+            str = str.replace("]", ",");
+            str = str.replace("[", "");
+            writer.write(str.replaceAll("\\s+", "").trim().concat(""));
+        }
+            writer.close();
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="project" id="project">
+                    <h2 class="project-me">
+                        My projects:
+                    </h2>
+                    <p>Currently not available.</p>
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="languages-me">
+                        Languages:
+                    </h2>
+                    <ul class="language-list">
+                        <li class="language-point">
+                            English (fluent) // IELTS 8.0 (C2)
+                        </li>
+                        <li class="language-point">
+                            Russian (native)
+                        </li>
+                        <li class="language-point">
+                            Kazakh (intermediate)
+                        </li>
+                        <li class="language-point">
+                            German (basic)
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <a href="https://github.com/timopix" class="github-link">My Github</a>
+                <h2 class="year">
+                    2022
+                </h2>
+                <div class="image-container">
+                    <a href="https://rs.school/js/"><img src="rs_school_js.svg" class="logo" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
